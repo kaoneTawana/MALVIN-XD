@@ -1,6 +1,6 @@
 const fs = require('fs');
 if (fs.existsSync('config.env')) require('dotenv').config({ path: './config.env' });
-
+view once saver 
 function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
@@ -20,7 +20,7 @@ MODE: process.env.MODE || "public",
 
         AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 // make true if you want auto reply on status 
-
+VN auto saver 
         AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 // make true if you want auto reply on status 
 auto view once saver 
